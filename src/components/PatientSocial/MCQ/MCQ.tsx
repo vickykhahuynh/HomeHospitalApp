@@ -44,7 +44,6 @@ export const MCQ: FC<Props> = memo(function MCQ(props) {
   };
   return (
     <div className={`${resets.clapyResets} ${props.classes?.root || ''} ${props.className || ''} ${classes.root}`}>
-      <div className={classes.rectangle84}></div>
       <div className={divClass}>
         <div className={classes.frame13}>
           <div className={classes.textBlock}>
@@ -91,6 +90,7 @@ export const MCQ: FC<Props> = memo(function MCQ(props) {
         </label>
       </div>
       </div>
+      <div className={classes.rectangle84}></div>
     </div>
   );
 });

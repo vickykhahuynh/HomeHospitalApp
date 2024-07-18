@@ -150,7 +150,6 @@ export const MedicalStable: FC<Props> = memo(function MedicalStable(props = {}) 
           }}
         />
         <MCQ
-          className={classes.mCQ2}
           hide={{
             radioYesRejected: true,
           }}
@@ -169,7 +168,6 @@ export const MedicalStable: FC<Props> = memo(function MedicalStable(props = {}) 
           }}
         />
         <MCQ
-          className={classes.mCQ2}
           hide={{
             radioYesRejected: true,
           }}

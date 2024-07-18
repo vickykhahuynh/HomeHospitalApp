@@ -416,3 +416,10 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.mCQ2 {
+  position: relative;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f2f0f9;
+}

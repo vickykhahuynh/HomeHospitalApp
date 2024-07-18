@@ -616,7 +616,7 @@
 }
 .mCQ2 {
   position: relative;
-  height: 170px;
+  height: 100%;
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;

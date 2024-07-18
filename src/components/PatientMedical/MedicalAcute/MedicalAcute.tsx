@@ -125,7 +125,6 @@ export const MedicalAcute: FC<Props> = memo(function MedicalAcute(props = {}) {
           }}
         />
         <MCQ
-          className={classes.mCQ2}
           hide={{
             radioYesRejected: true,
           }}
