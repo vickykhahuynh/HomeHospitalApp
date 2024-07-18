@@ -1,0 +1,137 @@
+.radioNeutralYes.radioNeutralYes {
+  position: absolute;
+  left: 0.9964px;
+  top: 0;
+}
+.radioNeutralNoFlag.radioNeutralNoFlag {
+  position: absolute;
+  left: 77.9964px;
+  top: 0;
+}
+.radioActiveFlagged.radioActiveFlagged {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.radioNeutralNo.radioNeutralNo {
+  position: absolute;
+  left: 77px;
+  top: 1px;
+}
+.root {
+  position: relative;
+  width: 1025px;
+  height: 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f2f0f9;
+}
+.rectangle84 {
+  position: absolute;
+  left: 0.1815%;
+  right: 0%;
+  top: 98.3333%;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #d9d5ec;
+}
+.frame13 {
+  flex: 15; /* Each column takes up equal space */
+  text-align: right;
+  /* position: absolute;
+  left: 87.2727%;
+  right: 2.9091%;
+  top: 15%;
+  bottom: 16.6667%;
+  flex-direction: column;
+  align-items: flex-start; */
+}
+.frameQ {
+  flex: 85;
+  width: 100%;
+  height: 100%;
+}
+.qContent {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.qContentRed {
+  background: rgba(211, 0, 0, 0.1);
+  border-left: 5px solid #D30000;
+}
+.rectangle195 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1025px;
+  height: 59px;
+  background-color: #ffe0e0;
+}
+.rectangle98 {
+  position: absolute;
+  left: 0;
+  right: 99.5772%;
+  top: 0;
+  bottom: 0;
+  background-color: #d30000;
+}
+.frame30 {
+  position: absolute;
+  left: 896px;
+  top: 8px;
+  width: 107px;
+  height: 42px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.loremIpsumDolorSitAmetConsecte {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  width: 806px;
+  height: min-content;
+  flex-direction: column;
+}
+.list {
+  font-size: 14px;
+}
+.list ::marker {
+  color: #272340;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock {
+  color: #272340;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.radioOption {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  color: #272340;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Inter, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+}
+.radioOption input {
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.radioOptionRed {
+  color: #d30000;
+}
+.radioOptionRed input{
+  accent-color: #D30000;
+}

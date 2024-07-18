@@ -1,0 +1,132 @@
+.menu.menu {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.fAB.fAB {
+  align-self: flex-start;
+}
+.navItem1.navItem1 {
+  width: initial;
+  align-self: stretch;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.label {
+  color: #1d1b20;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navItem2.navItem2 {
+  width: initial;
+  align-self: stretch;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.label2 {
+  color: #49454f;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navItem3.navItem3 {
+  width: initial;
+  align-self: stretch;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+}
+.label3 {
+  color: #49454f;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navItem4.navItem4 {
+  width: min-content;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+}
+.label4 {
+  color: #49454f;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.5px;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.root {
+  position: absolute;
+  left: 114px;
+  top: 20px;
+  width: 80px;
+  height: 900px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 44px 0 56px;
+  background-color: #fef7ff;
+  overflow: hidden;
+}
+.menuFab {
+  width: 80px;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.fABElevationOverride {
+  width: min-content;
+  height: min-content;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.destinations {
+  width: 80px;
+  height: min-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  overflow: hidden;
+}

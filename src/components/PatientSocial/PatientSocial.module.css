@@ -1,0 +1,117 @@
+.root {
+  position: relative;
+  width: 1100px;
+  height: 1483px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle197 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1056px;
+  height: 1482px;
+  background-color: #fff;
+}
+.details {
+  position: absolute;
+  left: 50%;
+  top: 21px;
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 28px;
+  overflow: hidden;
+  transform: translateX(-50%);
+}
+.frame25 {
+  position: relative;
+  width: 1005.1437px;
+  height: 26.4992px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.done {
+  color: #007f00;
+  font-size: 12.7927px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  position: absolute;
+  left: 958.1846px;
+  top: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.frame26 {
+  position: absolute;
+  left: 9.1377px;
+  top: 0;
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 30px;
+}
+.group92 {
+  position: relative;
+  width: 119.4342px;
+  height: 26px;
+}
+.socialConditions {
+  color: #272340;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  position: absolute;
+  left: 0;
+  right: 0.3635%;
+  top: 0;
+  bottom: 34.6154%;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle103 {
+  position: absolute;
+  left: 0.3635%;
+  right: 0%;
+  top: 96.1538%;
+  bottom: 0;
+  width: 119px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  background-color: #25213b;
+}
+.generalMedicalConditions {
+  color: #6e6893;
+  font-size: 12.7927px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.diagnosticConditions {
+  color: #6e6893;
+  font-size: 12.7927px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

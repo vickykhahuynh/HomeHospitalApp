@@ -1,0 +1,37 @@
+.radioNeutralNo.radioNeutralNo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: initial;
+  height: initial;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.amount {
+  color: #d30000;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: capitalize;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -2.439%;
+  bottom: 65.8537%;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.root {
+  position: relative;
+  width: 30px;
+  height: 41px;
+  flex-direction: column;
+  align-items: flex-start;
+}

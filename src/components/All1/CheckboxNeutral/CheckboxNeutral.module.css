@@ -1,0 +1,19 @@
+.root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.checkboxNeutral {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1.5px #8b83ba;
+  outline-offset: -1px;
+  border-radius: 3px;
+}

@@ -1,0 +1,33 @@
+.comments.comments {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.loremIpsumDolorSitAmetConsecte {
+  color: #272340;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: auto;
+  height: min-content;
+  flex-direction: column;
+}
+.root {
+  position: relative;
+  width: 1055px;
+  height: 192px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle98 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1055px;
+  height: 192px;
+  border-radius: 8px;
+  background-color: #f2f0f9;
+}

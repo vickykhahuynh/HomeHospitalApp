@@ -1,0 +1,199 @@
+.container {
+  width: 1115px;
+  height: 750px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+input {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.defaultNodes {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: 600;
+  border-radius: 3px;
+  height:30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.defaultNodes:hover {
+  -webkit-filter: brightness(90%);
+}
+
+:global(.svelte-flow__node) {
+  height: 80px;
+  width: 120px;
+  justify-content: center;
+  font-family: arial;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  background-color: #C9E4D8;
+}
+
+:global(.svelte-flow__handle) {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+}
+
+.editor {
+  height: 300px;
+  width: 300px;
+  background-color: #A8AFB6;
+  border-radius: 8px;
+  border-style: solid;
+  display: inline-block;
+  position: absolute;
+  top:75px;
+  left:75px;
+  border: 2px solid black;
+}
+
+.edit_label {
+  font-family: arial;
+  line-height: 5px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
+
+.edit_header {
+  font-family: arial;
+  text-align: center;
+  line-height: 5px;
+  padding-top:15px;
+  padding-left: 75px;
+  padding-bottom:20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.text_input {
+  font-family: arial;
+  text-align: left;
+  line-height: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.done {
+  margin:5px;
+  height:50px;
+  width:50px;
+  font-size: 25px;
+  background-color:lightgreen;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.done:hover {
+  background-color:rgb(135, 226, 135);
+}
+
+
+.close {
+  padding:2px;
+  margin:5px;
+  height:30px;
+  width:30px;
+  background-color: rgb(245, 54, 54);
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close:hover{
+  background-color: rgb(219, 46, 46);
+}
+
+.addNode {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #DBDDE0;
+  font-size: 15px;
+  }
+
+.showGraphs {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 95px;
+  background-color: #DBDDE0;
+  font-size: 15px;
+}
+
+.ImportGraph {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 180px;
+  background-color: #DBDDE0;
+  font-size: 15px;
+}
+
+.ExportGraph {
+  height: 75px;
+  width: 75px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 265px;
+  background-color: #DBDDE0;
+  font-size: 15px;
+}
+
+
+.PageBack{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #DBDDE0;
+  font-size: 35px;
+}
+
+
+.exportButton:hover{
+  -webkit-filter: brightness(95%);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.importButton {
+  height : 30px;
+  width : 100px;
+  background: #DBDDE0;
+  border: 1px solid #000000ad;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.importButton:hover{
+  -webkit-filter: brightness(95%);
+}
